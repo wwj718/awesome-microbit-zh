@@ -59,23 +59,23 @@ Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](htt
 - [Thonny micro:bit](https://bitbucket.org/KauriRaba/thonny-microbit/wiki/installation-guide) -  [Thonny](http://thonny.org)插件, Thonny是面向初学者的pythonIDE
 - [JetBrains IDEA/PyCharm IDE plugin](https://plugins.jetbrains.com/plugin/9777-micropython-support) - 使IntelliJ IDEA 和 PyCharm支持MicroPython设备的插件.
 
-##### MicroPython库
+##### MicroPython 库
 
-- [Servo](https://github.com/microbit-playground/microbit-servo-class) - 在micro:bit上通过 PWM控制舵机的简单类库.
-- [PCA9685](https://github.com/gingemonster/PCA9685-Python-Microbit) - Simple class for using the PCA9685 16-Channel 12-bit PWM/Servo Driver via I2C.
-- [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - MicroPython module for using a 7-segment display driven by a MAX7219 chip via SPI.
-- [MAX7219 matrix](https://github.com/titimoby/microbit4all/blob/master/libraries/matrix7219.py) - MicroPython module for using a 8x8 Leds Matrix driven by a MAX7219 chip via SPI.
-- [SSD1306](https://github.com/fizban99/microbit_ssd1306) - MicroPython library to control the OLED SSD1306 128x64 I2C with a micro:bit.
-- [SSD1306 7seg](https://github.com/fizban99/microbit_ssd1306_7seg) - MicroPython library to use an SSD1306 OLED display as a 7 segment display.
-- [SSD1306 SPI](https://github.com/fizban99/microbit_ssd1306spi) - MicroPython library to control the OLED SSD1306 128x64 display with a micro:bit via SPI.
-- [HT16K33](https://bitbucket.org/thesheep/microbit-ht16k33) - MicroPython library for the HT16K33 LED matrix driver in multiple configurations (16x8, 8x8 or 8x8x2).
-- [HC-SR04](https://github.com/fizban99/microbit_hcsr04) - Basic MicroPython library to read the distance from a HC-SR04 ultrasonic sensor using the SPI peripheral.
-- [US-100](https://github.com/fizban99/microbit_us100) - Basic MicroPython library to read the distance from a US-100 ultrasonic sensor via UART.
-- [KY038](https://github.com/fizban99/microbit_ky038) - MicroPython library to calibrate and use a sound sensor KY038, including clap counter functionality.
-- [Nokia 5110 PCD8544 LCD](https://github.com/matneee/microbit-nokia5110-PCD8544-lcd) - Fast Micro:bit MicroPython controller for Nokia 5110 LCDs.
-- [MPL115A1](https://github.com/hackscribble/microbit-MPL115A1-barometer) - MicroPython class to read the pressure and temperature readings from the NXP MPL115A1 SPI sensor.
-- [24LCxxx EEPROM](https://github.com/matneee/microbit-I2C-EEPROM-24LCxxx-Read-Write) - Example Micro:bit functions to read and write to a Microchip I2C EEPROM.
-- [ULN2003](https://github.com/IDWizard/uln2003) - Micropython code to drive stepper motors via ULN2003 darlington transistors.
+- [Servo](https://github.com/microbit-playground/microbit-servo-class) - microbit中通过产生PWM波（脉宽调制）来控制舵机的简单类库。
+- [PCA9685](https://github.com/gingemonster/PCA9685-Python-Microbit) - 通过IIC总线来控制PCA9685（一个16通道 12bit位分辨率的PWM/舵机伺服器芯片）的简单类库。
+- [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - 通过SPI总线驱动的用于控制七段数码管的MAX7219芯片的相关MicroPython模组。
+- [MAX7219 matrix](https://github.com/titimoby/microbit4all/blob/master/libraries/matrix7219.py) - 通过SPI总线驱动的用于控制8×8发光二极管点阵的MAX7219芯片的相关MicroPython模组。
+- [SSD1306](https://github.com/fizban99/microbit_ssd1306) - microbit中通过I2C总线用于控制SSD1306（128*64分辨率）OLED屏幕的MicroPython库。
+- [SSD1306 7seg](https://github.com/fizban99/microbit_ssd1306_7seg) -用于使用SSD1306 OLED屏幕去模拟七段数码管的MicroPython库。 
+- [SSD1306 SPI](https://github.com/fizban99/microbit_ssd1306spi) - microbit中通过SPI总线去控制SSD1306（128×64分辨率）OLED屏幕的MicroPython库。
+- [HT16K33](https://bitbucket.org/thesheep/microbit-ht16k33) - 用于多种配置（16x8,8x8或8x8x2）的HT16K33 LED点阵驱动器的MicroPython库。
+- [HC-SR04](https://github.com/fizban99/microbit_hcsr04) - 通过SPI总线来读取从 HC-SR04 超声波传感器获取的距离的基本MicroPython库。
+- [US-100](https://github.com/fizban99/microbit_us100) - 通过UART从US-100 超声波传感器读取距离的基本MicroPython库。
+- [KY038](https://github.com/fizban99/microbit_ky038) - 校准和使用 KY038 声音传感器的MicroPython库，包含拍手计数器功能。
+- [Nokia 5110 PCD8544 LCD](https://github.com/matneee/microbit-nokia5110-PCD8544-lcd) - Micro:bit中用于控制Nokia 5110 LCD显示屏的MicroPython控制器。
+- [MPL115A1](https://github.com/hackscribble/microbit-MPL115A1-barometer) - 通过SPI总线读取NXP MPL115A1 压力传感器的压力以及温度数值的MicroPython类
+- [24LCxxx EEPROM](https://github.com/matneee/microbit-I2C-EEPROM-24LCxxx-Read-Write) - 用于读取和写入I2C EEPROM（24LCXXX型号）的Micro:bit函数的例子
+- [ULN2003](https://github.com/IDWizard/uln2003) - 通过ULN2003达林顿晶体管阵列来驱动步进电机的Micropython代码。
 
 ##### Python库
 
