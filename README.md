@@ -63,10 +63,10 @@ Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](htt
 
 - [Servo](https://github.com/microbit-playground/microbit-servo-class) - microbit中通过产生PWM波（脉宽调制）来控制舵机的简单类库。
 - [PCA9685](https://github.com/gingemonster/PCA9685-Python-Microbit) - 通过IIC总线来控制PCA9685（一个16通道 12bit位分辨率的PWM/舵机伺服器芯片）的简单类库。
-- [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - 通过SPI总线驱动的用于控制七段数码管的MAX7219芯片的相关MicroPython模组。
-- [MAX7219 matrix](https://github.com/titimoby/microbit4all/blob/master/libraries/matrix7219.py) - 通过SPI总线驱动的用于控制8×8发光二极管点阵的MAX7219芯片的相关MicroPython模组。
+- [MAX7219 7-segment](https://github.com/microbit-playground/matrix7seg) - 通过SPI总线驱动的用于控制七段数码管的MAX7219芯片的相关MicroPython模块。
+- [MAX7219 matrix](https://github.com/titimoby/microbit4all/blob/master/libraries/matrix7219.py) - 通过SPI总线驱动的用于控制8×8发光二极管点阵的MAX7219芯片的相关MicroPython模块。
 - [SSD1306](https://github.com/fizban99/microbit_ssd1306) - microbit中通过I2C总线用于控制SSD1306（128*64分辨率）OLED屏幕的MicroPython库。
-- [SSD1306 7seg](https://github.com/fizban99/microbit_ssd1306_7seg) -用于使用SSD1306 OLED屏幕去模拟七段数码管的MicroPython库。 
+- [SSD1306 7seg](https://github.com/fizban99/microbit_ssd1306_7seg) - 用于使用SSD1306 OLED屏幕去模拟七段数码管的MicroPython库。 
 - [SSD1306 SPI](https://github.com/fizban99/microbit_ssd1306spi) - microbit中通过SPI总线去控制SSD1306（128×64分辨率）OLED屏幕的MicroPython库。
 - [HT16K33](https://bitbucket.org/thesheep/microbit-ht16k33) - 用于多种配置（16x8,8x8或8x8x2）的HT16K33 LED点阵驱动器的MicroPython库。
 - [HC-SR04](https://github.com/fizban99/microbit_hcsr04) - 通过SPI总线来读取从 HC-SR04 超声波传感器获取的距离的基本MicroPython库。
@@ -77,30 +77,30 @@ Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](htt
 - [24LCxxx EEPROM](https://github.com/matneee/microbit-I2C-EEPROM-24LCxxx-Read-Write) - 用于读取和写入I2C EEPROM（24LCXXX型号）的Micro:bit函数的例子
 - [ULN2003](https://github.com/IDWizard/uln2003) - 通过ULN2003达林顿晶体管阵列来驱动步进电机的Micropython代码。
 
-##### Python库
+##### Python 库
 
-- [MicroPeri](https://github.com/c0d3st0rm/microperi) - Run Python programs on your computer with the same micro:bit MicroPython API and connecting a micro:bit as an external peripheral device or sensor.
-- [microbit_stub](https://github.com/casnortheast/microbit_stub) - Python package that emulates the micro:bit as defined by the micro:bit MicroPython API.
-- [bluezero](https://github.com/ukBaz/python-bluezero) - Python package to interface with Bluetooth devices, with examples for the micro:bit.
-- [bitio](https://github.com/whaleygeek/bitio) - BBC micro:bit I/O library for Python. It allows you to run code in Python on a PC/Mac/Linux/Raspberry Pi and interact directly with the micro:bit.
+- [MicroPeri](https://github.com/c0d3st0rm/microperi) - 使用micro:bit MicroPython API在电脑上运行Python程序以及作为外围设备或传感器连接micro:bit.
+- [microbit_stub](https://github.com/casnortheast/microbit_stub) - 模拟micro:bit MicroPython API的Python库
+- [bluezero](https://github.com/ukBaz/python-bluezero) - 与蓝牙设备交互的Python包，里边带有micro:bit的例子
+- [bitio](https://github.com/whaleygeek/bitio) - BBC micro:bit Python I/O 库. 允许你在 PC/Mac/Linux/Raspberry Pi上边直接跑Python代码 以及 直接与 micro:bit交互.
 
 ##### Python 编程工具
 
-- [uFlash](https://github.com/ntoll/uflash/) - Utility for flashing the micro:bit with Python scripts and the MicroPython runtime.
-- [MicroFs](https://github.com/ntoll/microfs) - Simple command line tool and module for interacting with the limited file system provided by MicroPython on the micro:bit.
-- [Jupyter kernel for the micro:bit](https://github.com/takluyver/ubit_kernel) - Package that allows Jupyter interfaces to run MicroPython code directly on the micro:bit.
+- [uFlash](https://github.com/ntoll/uflash/) - 用于往 micro:bit 中烧录Python脚本和 MicroPython 运行时的工具.
+- [MicroFs](https://github.com/ntoll/microfs) - 一个简单的命令行工具/模块,用于与micro:bit中的受限文件系统(由MicroPython提供)交互.
+- [Jupyter kernel for the micro:bit](https://github.com/takluyver/ubit_kernel) - 允许你在Jupyter中使MicroPython代码直接运行在micro:bit上
 
 ### JavaScript 和 MakeCode
 
-- [MakeCode](https://makecode.microbit.org) - The Programming eXperience Toolkit for the micro:bit provides an in-browser emulator, a Blocks interface, and JavaScript (TypeScript) editor.
-- [Espruino JavaScript](http://www.espruino.com/MicroBit) - JavaScript interpreter for microcontrollers. It also offers a WebIDE for written code and blocks.
-- [Code Kingdoms](https://www.microbit.co.uk/app/#create:tomwku) - Graphical interface that provides a transitioning experience from 'drag and drop' to text-based programming (JavaScript).
+- [MakeCode](https://makecode.microbit.org) - 提供一个基于浏览器的模拟器和积木编程环境，堆叠好的积木块最终将生成JavaScript (TypeScript)代码 (之前以PXT为人所知).
+- [Espruino JavaScript](http://www.espruino.com/MicroBit) - 用于微处理器的JavaScript引擎，它也提供一个同时支持文本和及木化编程的浏览器编程环境.
+- [Code Kingdoms](https://www.microbit.co.uk/app/#create:tomwku) - 基于图形界面的编程工具，帮助用户从拖曳式编程到文本编程(JavaScript)的过渡.
 
 ##### MakeCode 库
 
-- [Neopixel](https://github.com/Microsoft/pxt-neopixel) - Neo-Pixel package for pxt-microbit.
-- [Filesystem](https://github.com/Microsoft/pxt-filesystem) - BETA package to support file system.
-- [MAX6675](https://github.com/Microsoft/pxt-max6675) - Package for the MAX6675 component in PXT.
+- [Neopixel](https://github.com/Microsoft/pxt-neopixel) - pxt-microbit的Neo-Pixel(驱动)包.
+- [Filesystem](https://github.com/Microsoft/pxt-filesystem) - 文件系统的驱动(测试版).
+- [MAX6675](https://github.com/Microsoft/pxt-max6675) - PXT的 MAX6675 驱动包 .
 - [Bluetooth MAX6675](https://github.com/Microsoft/pxt-bluetooth-max6675) - Bluetooth service for the MAX6675 temperature probe.
 - [Sonar](https://github.com/Microsoft/pxt-sonar) - Microsoft MakeCode package to handle sonar sensors and pings.
 - [Bluetooth Temperature Sensor](https://github.com/Microsoft/pxt-bluetooth-temperature-sensor) - Bluetooth service to expose a temperature reading.
@@ -130,12 +130,12 @@ Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](htt
 
 ##### Node.js库
 
-- [node-bbc-microbit](https://github.com/sandeepmistry/node-bbc-microbit) - Control a micro:bit from Node.js using BLE.
+- [node-bbc-microbit](https://github.com/sandeepmistry/node-bbc-microbit) - 使用蓝牙在Node.js中控制micro:bit 
 - [node-bbc-microbit-io](https://github.com/sandeepmistry/node-bbc-microbit-io) - Johnny-Five (JavaScript Robotics and IoT programming framework) micro:bit IO Plugin.
 
 ##### JavaScript前端库
 
-- [microBit.js](https://github.com/antefact/microBit.js) - JavaScript library to interact with BBC micro:bit using web bluetooth API.
+- [microBit.js](https://github.com/antefact/microBit.js) - 一个前端库，使用web bluetooth AP来与micro:bit交互.
 
 ##### JavaScript编程工具
 
