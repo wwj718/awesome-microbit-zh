@@ -43,7 +43,7 @@ Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](htt
 - [Code Kingdoms](https://www.microbit.co.uk/app/#create:tomwku) - 基于图形界面的编程工具，帮助用户从拖曳式编程到文本编程(JavaScript)的过渡.
 - [Scratch for BBC micro:bit](http://www.picaxe.com/BBC-microbit) - 将micro:bit用作Scratch/S2Bot的蓝牙游戏控制器(蓝牙控制手柄) (需要特殊的BLED112蓝牙适配器).
 - [Open Roberta Lab](http://lab.open-roberta.org) - 为机器人编程设计的积木时编程环境, 通过将堆叠好的积木生成MicroPython代码来支持microbit.
-- [ScratchX micro:bit extension](https://llk.github.io/microbit-extension/) - 让你使用Scratch编程积木块以无线的方式控制microbit.
+- [ScratchX micro:bit extension](https://llk.github.io/microbit-extension/) - 让你使用Scratch编程积木块控制microbit.
 
 ### Python
 
@@ -82,11 +82,11 @@ Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](htt
 - [MicroPeri](https://github.com/c0d3st0rm/microperi) - 使用micro:bit MicroPython API在电脑上运行Python程序以及作为外围设备或传感器连接micro:bit.
 - [microbit_stub](https://github.com/casnortheast/microbit_stub) - 模拟micro:bit MicroPython API的Python库
 - [bluezero](https://github.com/ukBaz/python-bluezero) - 与蓝牙设备交互的Python包，里边带有micro:bit的例子
-- [bitio](https://github.com/whaleygeek/bitio) - BBC micro:bit Python I/O 库. 允许你在 PC/Mac/Linux/Raspberry Pi上边直接跑Python代码 以及 直接与 micro:bit交互.
+- [bitio](https://github.com/whaleygeek/bitio) - BBC micro:bit Python I/O 库. 允许你在 PC/Mac/Linux/Raspberry Pi上边直接跑Python代码并直接与 micro:bit交互（支持输入、输出）.如果你想把micro:bit作为外设与你既有的系统交互，这个库十分值得一试！
 
 ##### Python 编程工具
 
-- [uFlash](https://github.com/ntoll/uflash/) - 用于往 micro:bit 中烧录Python脚本和 MicroPython 运行时的工具.
+- [uFlash](https://github.com/ntoll/uflash/) - 用于往 micro:bit 中烧录Python脚本和 MicroPython 运行时的工具. （支持将python代码转为hex格式以及逆向操作）
 - [MicroFs](https://github.com/ntoll/microfs) - 一个简单的命令行工具/模块,用于与micro:bit中的受限文件系统(由MicroPython提供)交互.
 - [Jupyter kernel for the micro:bit](https://github.com/takluyver/ubit_kernel) - 允许你在Jupyter中使MicroPython代码直接运行在micro:bit上
 
@@ -96,42 +96,42 @@ Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](htt
 - [Espruino JavaScript](http://www.espruino.com/MicroBit) - 用于微处理器的JavaScript引擎，它也提供一个同时支持文本和及木化编程的浏览器编程环境.
 - [Code Kingdoms](https://www.microbit.co.uk/app/#create:tomwku) - 基于图形界面的编程工具，帮助用户从拖曳式编程到文本编程(JavaScript)的过渡.
 
-##### MakeCode 库
+##### MakeCode 库(pxt驱动)
 
-- [Neopixel](https://github.com/Microsoft/pxt-neopixel) - pxt-microbit的Neo-Pixel(驱动)包.
-- [Filesystem](https://github.com/Microsoft/pxt-filesystem) - 文件系统的驱动(测试版).
-- [MAX6675](https://github.com/Microsoft/pxt-max6675) - PXT的 MAX6675 驱动包 .
-- [Bluetooth MAX6675](https://github.com/Microsoft/pxt-bluetooth-max6675) - Bluetooth service for the MAX6675 temperature probe.
-- [Sonar](https://github.com/Microsoft/pxt-sonar) - Microsoft MakeCode package to handle sonar sensors and pings.
-- [Bluetooth Temperature Sensor](https://github.com/Microsoft/pxt-bluetooth-temperature-sensor) - Bluetooth service to expose a temperature reading.
-- [MIDI](https://github.com/Microsoft/pxt-midi) - MIDI interface for MakeCode - beta.
-- [Bluetooth MIDI](https://github.com/Microsoft/pxt-bluetooth-midi) - Bluetooth Midi package for Microsoft Make Code - beta.
-- [BlueDot](https://github.com/Microsoft/pxt-bluedot) - PXT package to support the BlueDot app - beta.
-- [GY521](https://github.com/PaulDFoster/pxt-microbit-GY521) - PXT package for the Microbit to drive a MPU-6050 (GY-521).
-- [UCL Junkrobot](https://github.com/chevyng/pxt-ucl-junkrobot) - Junk robot controlled using 28BYJ-48 stepper motors and HC-SR04 ultrasonic sensor.
-- [BitBot](https://github.com/srs/pxt-bitbot) - BitBot Package for Microsoft PXT.
-- [gamer:bit](https://github.com/sparkfun/pxt-gamer-bit) - SparkFun gamer:bit package for Microsoft MakeCode.
-- [moto:bit](https://github.com/sparkfun/pxt-moto-bit) - MakeCode package for the SparkFun weather:bit board.
-- [weather:bit](https://github.com/sparkfun/pxt-weather-bit) - Package to add support for the weather:bit add-on board from SparkFun.
-- [SSD1306](https://github.com/Tinkertanker/pxt-ssd1306-microbit) - Package for SSD1306 OLED controller, based on the Adafruit Arduino library.
-- [mi:node](https://github.com/minodekit/pxt-minode) - Mi:node kit(micro:bit IoT Starter Kit by element14) driver package for PXT/microbit.
-- [Kitronik Servo Lite](https://github.com/KitronikLtd/pxt-kitronik-servo-lite) - Blocks that support Kitronik Servo:Lite board for the micro:bit.
-- [Kitronik I2C 16 Servo](https://github.com/KitronikLtd/pxt-kitronik-I2C-16-servo) - Blocks for driving the Kitronik I2C 16 servo expansion board.
-- [Kitronik motor driver](https://github.com/KitronikLtd/pxt-kitronik-motor-driver) - Blocks for driving the Kitronik micro:bit motor driver board.
-- [Lego Power Functions](https://github.com/philipphenkel/pxt-powerfunctions) - Control your LEGO® Power Functions motors using your micro:bit with an infrared LED.
-- [KY-040](https://github.com/Tinkertanker/pxt-ky040-microbit) - Tinkertanker package for the KY-040 rotary encoder.
-- [Invent robot](https://github.com/techcampuk/pxt-invent) - This library provides a Microsoft PXT package for Invent robot.
-- [Robotbit](https://github.com/KittenBot/pxt-robotbit) - Package for KittenBot Robotbit.
-- [ubirch NB-IoT](https://github.com/ubirch/pxt-ubirch) - Package for sending signed data messages to the ubirch backend.
-- [CCS811](https://github.com/ADataDate/pxt-airQuality) - Makecode Package for the CCS811 Air Quality Sensor.
-- [DS1307](https://github.com/Tinkertanker/pxt-ds1307-microbit) - Tinkercademy MakeCode package for using the DS1307 real-time clock (beta).
-- [HT16K33](https://github.com/Tinkertanker/pxt-ht16k33-alnum4) - Tinkercademy MakeCode Package for the HT16K33 I2C Alphanumeric Display (beta).
-- [HoneyBit](https://github.com/HoneycombKits/pxt-HoneyBit) - A Honeycomb kits package for micro:bit MakeCode.
+- [Neopixel](https://github.com/Microsoft/pxt-neopixel) - Neo-Pixel(Neo-Pixel是一种流行的全彩led灯(每个led独立编址)，效果绚丽)的pxt驱动.
+- [Filesystem](https://github.com/Microsoft/pxt-filesystem) - 文件系统的pxt驱动(测试版).
+- [MAX6675](https://github.com/Microsoft/pxt-max6675) - MAX6675 pxt驱动.
+- [Bluetooth MAX6675](https://github.com/Microsoft/pxt-bluetooth-max6675) -  MAX6675温度探头的蓝牙服务.
+- [Sonar](https://github.com/Microsoft/pxt-sonar) -  超声波传感器的pxt驱动.
+- [Bluetooth Temperature Sensor](https://github.com/Microsoft/pxt-bluetooth-temperature-sensor) - 温度传感器的蓝牙驱动.
+- [MIDI](https://github.com/Microsoft/pxt-midi) - MIDI(乐器数字接口,为电子乐器等演奏设备定义各种音符或弹奏码) pxt驱动（测试版）.
+- [Bluetooth MIDI](https://github.com/Microsoft/pxt-bluetooth-midi) - 蓝牙MIDI pxt驱动（测试版）.
+- [BlueDot](https://github.com/Microsoft/pxt-bluedot) -  支持BlueDot app的PXT库(测试版).
+- [GY521](https://github.com/PaulDFoster/pxt-microbit-GY521) -  为 Microbit 驱动 MPU-6050 (GY-521)（MPU6050是一种非常流行的空间运动传感器芯片，可以获取器件当前的三个加速度分量和三个旋转角速度）提供支持的PXT驱动.
+- [UCL Junkrobot](https://github.com/chevyng/pxt-ucl-junkrobot) - 使用 28BYJ-48 步进电机 和 HC-SR04 超声波传感器控制的Junk机器人.
+- [BitBot](https://github.com/srs/pxt-bitbot) - BitBot(使用microbit控制的一款小车)的pxt驱动.
+- [gamer:bit](https://github.com/sparkfun/pxt-gamer-bit) - SparkFun gamer:bit扩展板(microbit驱动的游戏手柄)的pxt驱动.
+- [moto:bit](https://github.com/sparkfun/pxt-moto-bit) -  SparkFun weather:bit扩展板(给你一个全功能的气象站)的pxt驱动.
+- [weather:bit](https://github.com/sparkfun/pxt-weather-bit) - SparkFun weather:bit扩展板的pxt驱动.
+- [SSD1306](https://github.com/Tinkertanker/pxt-ssd1306-microbit) - SSD1306 OLED 屏幕的pxt驱动, 基于Adafruit Arduino库.
+- [mi:node](https://github.com/minodekit/pxt-minode) - Mi:node 套件(由element14提供的micro:bit IoT 起步套件) PXT驱动.
+- [Kitronik Servo Lite](https://github.com/KitronikLtd/pxt-kitronik-servo-lite) - Kitronik Servo:Lite(驱动伺服电机) 扩展板的pxt驱动.
+- [Kitronik I2C 16 Servo](https://github.com/KitronikLtd/pxt-kitronik-I2C-16-servo) - Kitronik I2C 16 Servo扩展板(驱动多达16个伺服电机)的pxt驱动.
+- [Kitronik motor driver](https://github.com/KitronikLtd/pxt-kitronik-motor-driver) - Kitronik micro:bit电机驱动扩展板.
+- [Lego Power Functions](https://github.com/philipphenkel/pxt-powerfunctions) - 使用micro:bit远程控制 LEGO® Power Functions电机的pxt扩展.
+- [KY-040](https://github.com/Tinkertanker/pxt-ky040-microbit) - KY-040 旋钮编码器的pxt驱动.
+- [Invent robot](https://github.com/techcampuk/pxt-invent) - Invent 机器人的pxt驱动.
+- [Robotbit](https://github.com/KittenBot/pxt-robotbit) - KittenBot Robotbit的pxt驱动.
+- [ubirch NB-IoT](https://github.com/ubirch/pxt-ubirch) - 发送加密数据到ubirch后端的pxt驱动（依赖BC95 NB-IoT 模组，它是一款高性能、低功耗的NB-IoT无线通信模块）.
+- [CCS811](https://github.com/ADataDate/pxt-airQuality) - CCS811空气质量传感器模块(可提供等效二氧化碳（eCO2）等级或总挥发性有机化合物（TVOC）指标)的pxt驱动.
+- [DS1307](https://github.com/Tinkertanker/pxt-ds1307-microbit) - 使用DS1307实时时钟(提供秒、分钟、小时、日、月、星期及年计时，带闰年补偿，有效期至2100年) (测试版)的pxt模块.
+- [HT16K33](https://github.com/Tinkertanker/pxt-ht16k33-alnum4) - HT16K33 数字显示屏的pxt驱动 (测试版).
+- [HoneyBit](https://github.com/HoneycombKits/pxt-HoneyBit) - Honeycomb 套件的pxt扩展.
 
 ##### Node.js库
 
 - [node-bbc-microbit](https://github.com/sandeepmistry/node-bbc-microbit) - 使用蓝牙在Node.js中控制micro:bit 
-- [node-bbc-microbit-io](https://github.com/sandeepmistry/node-bbc-microbit-io) - Johnny-Five (JavaScript Robotics and IoT programming framework) micro:bit IO Plugin.
+- [node-bbc-microbit-io](https://github.com/sandeepmistry/node-bbc-microbit-io) - Johnny-Five (JavaScript机器人和IoT 编程平台) micro:bit IO 插件.
 
 ##### JavaScript前端库
 
@@ -139,7 +139,8 @@ Awesome-XXX 是GitHub上知名的一组项目，其主页：[Awesome 清单](htt
 
 ##### JavaScript编程工具
 
-- [PXT Command Line Tool](https://makecode.com/cli) - Use the command line to program the micro:bit with MakeCode JavaScript. You can also run a local version of the MakeCode online editor (previously known as PXT).
+- [PXT Command Line Tool](https://makecode.com/cli) - 在命令行中使用MakeCode JavaScript为micro:bit编程。你也可以运行一个本地版本的MakeCode在线编辑器
+
 
 ### C/C++
 
